@@ -1,0 +1,274 @@
+:root {
+    --bg-color: rgb(16, 4, 46);
+    --scnd-color: rgb(19, 10, 98);
+    --text-color: white;
+    --main-color: rgb(255, 242, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    color: var(--text-color);
+    font-size: 40px;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+span {
+    color: var(--main-color);
+   font-size: 80px;
+   font-weight: 600;
+}
+
+h2 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.logo {
+   color: var(--text-color);
+   font-size: 60px;
+   cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navbar a {
+    margin-right: 25px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: transform 0.5s;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background: var(--main-color);
+    color: black;
+    border-radius: 20px;
+    transform: translateY(-5px);
+}
+.home {
+    background: var(--scnd-color);
+    padding: 80px;
+}
+
+.contents {
+    height: 800px;
+    width: 100%;
+}
+
+.contents img {
+    border-radius: 50px;
+    height: 700px;
+    margin-left: 50px;
+}
+
+.contents p {
+    font-size: 45px;
+}
+
+.contents h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-right: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.about {
+    padding: 80px;
+}
+
+.about-text , .about-text-two {
+    height: 800px;
+    width: 100%;
+}
+
+.about-text img {
+    border-radius: 50px;
+    margin-left: 50px;
+    height: 700px;
+}
+
+.about-text-two{
+   background: var(--scnd-color);
+   padding: 15px;
+   text-align: center;
+   border-radius: 20px;
+   cursor: pointer;
+   margin: 30px;
+   transition: 0.5s;
+}
+
+.about-text-two:hover {
+    transform: translateY(-5px);
+    background: rgb(134, 7, 224);
+    color: black;
+}
+
+.about-p {
+    display: block;
+align-items: center;
+}
+
+.resume-btn {
+    display: block;
+    background: var(--main-color);
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.skills {
+    background: var(--scnd-color);
+    padding: 80px;
+}
+
+.skills-text {
+    height: 500px;
+    width: 100%;
+    border-radius: 60px;
+    background-color: var(--bg-color);
+    padding: 20px;
+    transition: transform 0.5s;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.skills-text:hover {
+background: rgb(134, 7, 224);
+transform: translateY(-5px);
+}
+
+h3 {
+    color: var(--main-color);
+    text-align: center;
+    font-size:40px;
+}
+
+.skills-text i {
+justify-content: center;
+align-items: center;
+font-size: 50px;
+border: 2px solid var(--main-color);
+padding: 20px;
+border-radius: 50%;
+transition: 0.5s;
+}
+
+.skills-text i:hover {
+    background: var(--main-color);
+    color: black;
+    cursor: pointer;
+}
+
+.projects {
+    background-color: var(--bg-color);
+    padding: 80px;
+}
+
+.projects-text {
+    height: 900px;
+margin-bottom: 30px;
+}
+
+.projects-text img {
+    height: 600px;
+    width: 100%;
+    border-radius: 30px;
+    transition: transform 0.6s;
+    cursor: pointer;
+}
+
+.projects-text img:hover {
+   transform: translateY(-10px);
+}
+
+.projects-text h3 {
+    border-radius: 10px;
+    background: var(--text-color);
+    color: black;
+    margin-top: 20px ;
+}
+
+.projects-text p {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.projects-text i {
+    justify-content: center;
+    background: var(--scnd-color);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.contact {
+    background: var(--scnd-color);
+    padding: 80px;
+}
+
+.input-box  {
+    background: var(--bg-color);
+    margin: 20px 30px 30px 20px;
+    border-radius: 25px;
+    height: 550px;
+    width: 100%;
+}
+
+.input-box input {
+    color: black;
+    background: var(--scnd-color);
+    border-radius: 20px;
+    padding: 20px;
+    color: var(--text-color);
+    margin:10px 10px ;
+}
+
+textarea {
+    height: 500px;
+    width: 100%;
+    background: var(--bg-color);
+    border-radius: 35px;
+    color: var(--text-color);
+}
+
+.cont-btn {
+    background: var(--main-color);
+    color: black;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+.cont-btn:hover {
+    background: whitesmoke;
+transform: translateY(-5px);
+}
+
+a {
+    text-decoration: none;
+    padding: 3px;
+    float: right;
+}
+
+.social-media a{
+    margin-right: 40px;
+    border: 2px solid var(--main-color);
+    padding: 15px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.social-media a:hover {
+   transform: translateY(-10px);
+}
